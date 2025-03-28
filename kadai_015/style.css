@@ -1,6 +1,5 @@
 body {
   font-family: "Arial","Meiryo",sans-serif;
-  font-size: 20px;
   text-align: center;
 }
 
@@ -10,7 +9,9 @@ body {
 .blue{
   color:skyblue
 }
-
+p, h1, h2, .pink .blue{
+  font-size: 20px;
+}
 
 h1{
   font-family: "Josefin Sans", sans-serif;
@@ -21,7 +22,7 @@ h1{
   font-size: 2.0rem;
   letter-spacing: 1.2em;
   text-shadow: 1px 1px 2px orange;
-  border-bottom: 3px rgb(115, 115, 114);
+  border-bottom: solid 3px rgb(115, 115, 114);
   
 }
 #basic > p {
