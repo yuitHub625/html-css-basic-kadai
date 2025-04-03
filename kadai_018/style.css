@@ -4,13 +4,14 @@
   background-color: #dcc9f4;
   margin: 20px auto;
   text-align: center;
-
+  position: auto;
 }
 
 .top-child {
   display: inline-block;
   width: 20%;
   background-color:#ffd9df;
+  position: auto;
   
 }
 
