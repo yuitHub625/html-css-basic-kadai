@@ -42,7 +42,7 @@ h2::before {
   color: rgb(239, 111, 139);
 }
 
-#parent p:nth-of-type(2)::first-letter {
+#parent :nth-of-type(2)::first-letter {
     font-weight: bold;
     color: rgb(97, 206, 249);
 }
@@ -68,7 +68,7 @@ a:hover {
 }
 @media screen and (max-width: 768px){
   #parent{
-         display: flex;
+        
          flex-direction:column
          }
 
