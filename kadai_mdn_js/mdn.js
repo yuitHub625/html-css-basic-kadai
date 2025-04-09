@@ -1,14 +1,6 @@
-// Dateオブジェクトを作成
-const currentDate = new Date();
+const date = new Date();
+const year = date.getFullYear();
+const month = date.getMonth() + 1;
+const day = date.getDate();
 
-// 年を取得
-const year = currentDate.getFullYear();
-
-// 月を取得（0から始まるので+1する）
-const month = currentDate.getMonth() + 1;
-
-// 日を取得
-const day = currentDate.getDate();
-
-// 結果を文字列として表示
-console.log(`年: ${year}, 月: ${month}, 日: ${day}`);
+console.log(year + '年' + month + '月' + day + '日');
